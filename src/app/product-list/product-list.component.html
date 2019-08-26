@@ -8,6 +8,12 @@
     </a>
   </h3>
 
+  <p *ngIf="product.description">
+    <b>Description:</b> {{ product.description }}
+  </p>
+  <button (click)="share()">
+    Partager
+  </button> 
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
